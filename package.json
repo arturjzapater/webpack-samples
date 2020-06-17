@@ -1,0 +1,24 @@
+{
+  "name": "webpack-samples",
+  "version": "1.0.0",
+  "description": "Some examples for webpack configurations",
+  "main": "server.js",
+  "scripts": {
+    "build:all": "npm run build:base && npm run build:loaders && npm run build:plugins",
+    "build:base": "webpack --config base.config.js",
+    "build:loaders": "webpack --config loaders.config.js",
+    "build:plugins": "webpack --config plugins.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
