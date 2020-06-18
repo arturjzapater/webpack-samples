@@ -4,6 +4,7 @@
   "description": "Some examples for webpack configurations",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "build:all": "npm run build:base && npm run build:loaders && npm run build:plugins",
     "build:base": "webpack --config base.config.js",
     "build:loaders": "webpack --config loaders.config.js",
@@ -11,7 +12,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
