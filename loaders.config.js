@@ -6,6 +6,7 @@ module.exports = {
         filename: 'client.js',
         path: path.resolve(__dirname, 'dist/loaders'),
     },
+    mode: production,
     module: {
         rules: [{
             test: /\.css$/,

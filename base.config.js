@@ -6,4 +6,5 @@ module.exports = {
         filename: 'client.js',
         path: path.resolve(__dirname, 'dist/base'),
     },
+    mode: 'production',
 }
