@@ -24,8 +24,17 @@ To start the server:
 npm start
 ```
 
-To build a bundle using each configuration, you can use:
+To build a bundle using each configuration, you can use (note that you will have to create `index.html` files in `dist/base` and `dist/loaders` that require a `client.js` file):
 
 ```bash
 npm run build:all
+```
+
+If you want to create the bundle for only one configuration, simple change `all` for the configuration name:
+
+```bash
+npm run build:base
+npm run build:loaders
+npm run build:plugins
+npm run build:media
 ```
