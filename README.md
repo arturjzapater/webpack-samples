@@ -4,13 +4,15 @@ This is just a short collection of sample configurations for webpack that I buil
 
 ## What is in this repo
 
-[base.config.js](base.config.js) is a basic configuration to bundle JavaScript. It requires the output bundle to be manually imported in the HTML file.
+[base.config.js](base.config.js) is a basic configuration to bundle JavaScript. It only configures an entry point and an output. It requires the output bundle to be manually imported in the HTML file.
 
 [loaders.config.js](loaders.config.js) is a configuration that uses style loaders to manage CSS and bundle it with JavaScript. It also requires the output bundle to be manually imported.
 
 [plugins.config.js](plugins.config.js) uses several plugins to minify and extract CSS and automatically import JavaScript and CSS files into the HTML file.
 
 [media.config.js](media.config.js) is like [plugins.config.js](plugins.config.js) but it also uses `file-loader` to load images onto the output folder.
+
+[wbabel.config.js](wbabel.config.js) is a configuration set to extract CSS and automatically inject CSS and JavaScript into the HTML file. It also processes JavaScript with Babel and uses the babel plugin for the pipeline operator.
 
 ## How to use it
 

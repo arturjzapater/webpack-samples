@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build:all": "npm run build:base && npm run build:loaders && npm run build:plugins && npm run build:media",
+    "build:all": "npm run build:base && npm run build:loaders && npm run build:plugins && npm run build:media && npm run build:babel",
     "build:base": "webpack --config base.config.js",
     "build:loaders": "webpack --config loaders.config.js",
     "build:plugins": "webpack --config plugins.config.js",
