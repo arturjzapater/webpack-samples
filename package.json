@@ -9,7 +9,8 @@
     "build:base": "webpack --config base.config.js",
     "build:loaders": "webpack --config loaders.config.js",
     "build:plugins": "webpack --config plugins.config.js",
-    "build:media": "webpack --config media.config.js"
+    "build:media": "webpack --config media.config.js",
+    "build:babel": "webpack --config wbabel.config.js"
   },
   "author": "",
   "license": "MIT",
@@ -17,6 +18,10 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-pipeline-operator": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
