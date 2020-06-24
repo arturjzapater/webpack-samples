@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/client.js',
     output: {
         filename: 'client.js',
-        path: path.resolve(__dirname, 'dist/plugins'),
+        path: path.resolve('dist/plugins'),
     },
     module: {
         rules: [{

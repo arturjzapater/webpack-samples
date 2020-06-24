@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/media.js',
     output: {
         filename: 'client.js',
-        path: path.resolve(__dirname, 'dist/media'),
+        path: path.resolve('dist/media'),
     },
     module: {
         rules: [{

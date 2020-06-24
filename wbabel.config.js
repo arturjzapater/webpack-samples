@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/babel.js',
     output: {
         filename: 'client.js',
-        path: path.resolve(__dirname, 'dist/babel'),
+        path: path.resolve('dist/babel'),
     },
     module: {
         rules: [{

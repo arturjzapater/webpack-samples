@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/base.js',
     output: {
         filename: 'client.js',
-        path: path.resolve(__dirname, 'dist/base'),
+        path: path.resolve('dist/base'),
     },
     mode: 'production',
 }
